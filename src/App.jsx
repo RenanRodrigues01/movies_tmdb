@@ -8,8 +8,6 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-
-      <h1>Movies TMDB title</h1>
       <Outlet />
     </div>
   )
