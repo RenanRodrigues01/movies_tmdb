@@ -1,3 +1,5 @@
+import './styled.css/movie.css'
+
 const Movie = () => {
     return (
         <div>
