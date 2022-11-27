@@ -1,0 +1,54 @@
+.container .title{
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+.title .query-text{
+    color: #f7f354;
+}
+.movie_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.movie_container div{
+    width: 30%;
+    color: #fff;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #111;
+    padding: 1rem;
+}
+.movie_container div img{
+    max-width: 100%;
+}
+.movie_container div img,
+.movie_container div h2
+.movie_container div p{
+    margin-bottom: 1rem;
+}
+.movie_container div svg{
+    color: #f7d354;
+}
+.movie_container div a {
+    align-items: center;
+    padding: 1rem .5rem; 
+    color: #000;
+    background-color: #F7D354;
+    border: 2px solid #F7D354;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .9s;
+    text-align: center;
+    font-weight: bold;
+}
+
+.movie_container div a:hover {
+    transform: scale(1.1);
+}

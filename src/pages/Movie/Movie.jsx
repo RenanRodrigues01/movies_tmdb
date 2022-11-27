@@ -1,4 +1,4 @@
-import './styled.css/movie.css'
+import "./Movie.css"
 
 const Movie = () => {
     return (
