@@ -1,9 +1,6 @@
 const Search = () => {
-    return (
-        <div>
-            <h1>Search</h1>
-        </div>
-    )
-}
+    return <div> Search </div>;
+
+};
 
 export default Search
