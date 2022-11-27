@@ -34,7 +34,7 @@
     margin-bottom: 1rem;
 }
 .movie_container div svg{
-    columns: #f7d354;
+    color: #f7d354;
 }
 .movie_container div a {
     align-items: center;
@@ -44,12 +44,11 @@
     border: 2px solid #F7D354;
     border-radius: 4px;
     cursor: pointer;
-    transition: .4s;
+    transition: .9s;
     text-align: center;
     font-weight: bold;
 }
 
 .movie_container div a:hover {
-    background-color: transparent;
-    color: #F7D354;
+    transform: scale(1.1);
 }
